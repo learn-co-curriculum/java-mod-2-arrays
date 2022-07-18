@@ -33,13 +33,13 @@ An array can be initialized as follows:
 
 `String[] names = {"James", "Jamaal", "Jennifer", "Jules"};`
 
-Once the array is initialized, each value is the array can be referenced by its
+Once the array is initialized, each value in the array can be referenced by its
 position in the array (called its `index`):
 
-`System.out.println(names[0]);` will print the `James` to the console while
-`System.out.println(names[1]);` will print the `Jamaal` to the console.
+`System.out.println(names[0]);` will print the name `James` to the console while
+`System.out.println(names[1]);` will print the name `Jamaal` to the console.
 
-You can see a familiar pattern where index of the value we want to print
+You can see a familiar pattern where the index of the value we want to print
 increases by one every time we want to move on to the next item on the list.
 This is a perfect use case for a `for` loop. Let's put one together to go
 through and print every name in our array:
@@ -74,7 +74,7 @@ for (int nameIndex = 0; nameIndex < names.length; nameIndex++) {
 The condition is now based on `names.length`, which returns the number of
 elements in the `names` array. The example code above also removed the first
 element of the array ("James") to demonstrate that the new code now works even
-through the array has one less element than it did before.
+though the array has one less element than it did before.
 
 Here is the output from this code:
 
