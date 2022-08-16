@@ -53,7 +53,7 @@ for (int nameIndex = 0; nameIndex < 4; nameIndex++) {
 
 This will produce the following output:
 
-```
+```plainttext
 Current name = James
 Current name = Jamaal
 Current name = Jennifer
